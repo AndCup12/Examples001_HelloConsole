@@ -1,7 +1,8 @@
-﻿String userName = Console.ReadLine();
-if(userName == "Андрей"){
+﻿Console.WriteLine("Введите имя пользователя: ");
+String userName = Console.ReadLine();
+if(userName.ToLower() == "андрей"){
     Console.WriteLine("Ураа! Это же " + userName +".");
 } else{
-    Console.WriteLine("Привет, " + userName +"!");
+    Console.WriteLine("Привет, " + userName +".");
 }
 
