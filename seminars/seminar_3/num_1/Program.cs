@@ -14,3 +14,4 @@ string Quarter (int X, int Y) {
 string result = Quarter(X, Y);
 Console.WriteLine(result);
  
+
